@@ -10,9 +10,10 @@ namespace RecruitCatShrivaty.Pages.Models
        
             public int CompanyId { get; set; }
             public string CompanyName { get; set; }
+            public string CompanyPosition { get; set; }
             public string MinimumSalary { get; set; }
             public string MaximumSalary { get; set; }
-            public datetime OptionalStartDate { get; set; }
+            public DateTime OptionalStartDate { get; set; }
             public string Location { get; set; }
             public string CompanyType { get; set; }
             public List<Candidate> Candidates { get; set; }
