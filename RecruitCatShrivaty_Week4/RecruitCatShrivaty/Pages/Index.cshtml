@@ -1,0 +1,139 @@
+﻿@page
+@model IndexModel
+@{
+    <style>
+
+        .carousel-caption {
+            top: 05%;
+            color:black;
+ 
+        }
+    </style>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="border: 2px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="~/images/TAG.jpg" alt="Company_Name">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>TAG Consultancy Services</h1>
+                    <h2>IT, Management & HR Consulting</h2>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img class="d-block w-100" src="~/images/ITC.jpeg" alt="Application_Process">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img class="d-block w-100" src="~/images/MCC.jpg" alt="Application_Process">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img class="d-block w-100" src="~/images/HRC.jpg" alt="Application_Process">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width:100%"><br/>
+
+        <h1 class="text-md-center" style="color:brown">Services Offered</h1><br>
+        <div class="card-body alert-info">
+
+            <h2 class="card-text" style="text-align:left"><strong>IT Consulting </strong></h2>
+            <p class="card-text" style="text-align:left">We help customers achieve their business objectives by providing innovative, best-in-class consulting, IT solutions and services. We make it a joy for all stakeholders to work with us.</p>
+        </div>
+        <div class="card-body alert-info">
+            <h2 class="card-text" style="text-align:left"><strong>Marketing Consulting </strong></h2>
+            <p class="card-text" style="text-align:left">Our Marketing Consulting goal is to help our clients achieve sustainable business growth through market intelligence, creativity, and strategic vision. We want to help customers build an organization that attracts, develops, and retains outstanding people.</p>
+        </div>
+        <div class="card-body alert-info">
+            <h2 class="card-text" style="text-align:left"><strong>HR Consulting </strong></h2>
+            <p class="card-text" style="text-align:left">We are trusted and respected HR Consulting, recognized by our clients for delivering excellence, being reliable and having solid partnerships. Serve our clients by providing the highest quality of professional services designed to support their mission and business needs.</p><br>
+        </div>
+
+
+    </div>
+
+    <div id="testimonials" class="container-fluid">
+        <div class="text-center" style="color:brown">
+            <h1>What our TAG Clients say!</h1><br>
+
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading ">
+                        <h2>CitiBank</h2>
+                    </div>
+                    <div class="panel-body alert-info ">
+                        <p>We’ve been partners with TAG Consulting for years now. The results are simply amazing. Numbers are spot on. Any recommendations so far have always delivered what was promised. This is the future in marketing. Highly recommend to any business who uses reviews, online ordering, etc.</p>
+                        <p><strong>- Robert Brown, Senior Vice President, Citibank USA</strong></p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h2>Amazon</h2>
+                    </div>
+                    <div class="panel-body alert-info">
+                        <p>An extremely competent team that knows the ever-changing challenge of optimization on Google. They have done an incredible job of not just helping us with SEO, but keeping us updated. There’s never a long period of silence. They always keep us in the loop, and we can say we’ve seen a noticeable increase in traffic thanks to their work.</p>
+                        <p><strong>- Tom Hanks, Global Marketing Head, Amazon USA</strong></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading ">
+                        <h2>Spotify</h2>
+                    </div>
+                    <div class="panel-body alert-info">
+                        <p>We could not be more pleased working with TAG! We have been working with their team for quite some time, and they have continually gone above and beyond year after year. Collaborating with TAG has resulted in the most effective return on investment for our marketing budget.</p>
+                        <p><strong>- Shahrukh Khan, CEO, Spotify</strong></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div>
+        <div class="card" style="width:100%">
+            <h2 class="text-center" style="color:brown">We are Hiring! Apply Now</h2>
+
+            <form action="/post" class="text-center">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <label for="mail">Email ID:</label><br>
+                <input type="email" id="" name="mail" value=""><br><br>
+                <button type="button" disabled>Submit</button>
+            </form>
+
+            <p class="text-center">Enter your information to hear from us!</p>
+        </div>
+        <div class="card-body alert-primary">
+            <h5 class="text-center" >Contact Information</h5>
+            <p class="card-text" style="text-align:center">Address: 730 Forum Apartments, Cincinnati, Ohio, 45220 </p>
+            <p class="card-text" style="text-align:center">Phone No: (513)850-7123</p>
+        </div>
+
+    </div>
+
+
+
+
+}
+
